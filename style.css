@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #f2f2f2;
 }
 
 .header_container {
@@ -12,15 +13,16 @@ body {
   background-image: url("./img/header.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 96% 100%;
+  background-size: 96% 96%;
 }
 
 .main_container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 15px 20px 0px 20px;
 }
 
 .information {
@@ -36,7 +38,7 @@ body {
 }
 
 .nr_image {
-  width: 100%;
+  width: 98.5%;
   object-fit: contain;
 }
 
@@ -46,10 +48,11 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 5px 0px 0px 5px;
+  background-color: #ffffff;
 }
 
 .title_nr {
-  margin-top: 15px;
+  margin: 10px 0px 25px 8px;
   font-size: 37px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -57,8 +60,7 @@ body {
 }
 
 .description_nr {
-  margin-top: 10px;
-  max-width: 610px;
+  margin: 10px 0px 25px 8px;
   width: 100%;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -69,16 +71,16 @@ body {
 }
 
 .fonte_nr {
-  margin-top: 25px;
+  margin: 10px 0px 25px 8px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   color: #c1c1c1;
 }
 
 .linea_nr {
-  margin-top: 5px;
+  margin: 5px 0px 25px 8px;
   margin-bottom: 25px;
-  max-width: 323px;
+  max-width: 427px;
   width: 100%;
   height: 6px;
   background: rgb(212, 56, 103);
@@ -93,8 +95,8 @@ body {
 .area_news {
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  background-color: #ffffff;
 }
 
 .area_nba,
@@ -114,11 +116,11 @@ body {
   width: 100%;
   height: 100%;
   padding: 5px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .title_nba {
-  margin: 10px 0px 25px 8px;
+  margin: 10px 0px 25px 0px;
   width: 85%;
   font-size: 34px;
   font-family: Arial, Helvetica, sans-serif;
@@ -149,12 +151,12 @@ body {
   max-width: 323px;
   width: 100%;
   height: 6px;
-  background: rgb(212, 56, 103);
+  background: rgb(116, 192, 206);
   background: linear-gradient(
     90deg,
-    rgba(212, 56, 103, 1) 0%,
-    rgba(177, 76, 126, 1) 50%,
-    rgba(119, 89, 158, 1) 100%
+    rgba(116, 192, 206, 1) 0%,
+    rgba(107, 146, 191, 1) 50%,
+    rgba(103, 107, 172, 1) 100%
   );
 }
 
@@ -163,13 +165,43 @@ body {
   max-width: 323px;
   width: 100%;
   height: 6px;
-  background: rgb(212, 56, 103);
+  background: rgb(112, 197, 200);
   background: linear-gradient(
     90deg,
-    rgba(212, 56, 103, 1) 0%,
-    rgba(177, 76, 126, 1) 50%,
-    rgba(119, 89, 158, 1) 100%
+    rgba(112, 197, 200, 1) 0%,
+    rgba(85, 187, 167, 1) 50%,
+    rgba(63, 181, 146, 1) 100%
   );
+}
+
+footer {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px;
+}
+
+.area_mandarin {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./img/mensagem_footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.frase_footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #646869;
+  font-weight: 500;
 }
 
 @media (max-width: 1004px) {
@@ -185,12 +217,15 @@ body {
   .title_nba,
   .title_whatsapp {
     width: auto;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 32px;
   }
 }
 
 @media (max-width: 700px) {
+  .main_container {
+    padding: 0px 3px 0px 3px;
+  }
   .information {
     width: 98%;
   }
@@ -201,9 +236,11 @@ body {
   .description_nr {
     text-align: justify;
     line-height: 24px;
+    margin: 0px;
   }
 
   .area_news {
+    width: 98%;
     flex-direction: column;
   }
 
@@ -222,5 +259,13 @@ body {
   .linea_nr,
   .linea_whatsapp {
     width: 76%;
+  }
+
+  .frase_footer {
+    font-size: 11px;
+  }
+
+  footer {
+    padding: 0px 8px 0px 8px;
   }
 }
