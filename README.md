@@ -1,6 +1,3 @@
-# teste-tecnico-Mandarin-alexandra86
-
-
 <h1 align="center" font-family="pattaya">Landing Page - Mandarin</h1><br>
 
 <h2 font-family="pattaya">Linguagens utilizadas</h2>
