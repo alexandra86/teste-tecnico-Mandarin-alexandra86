@@ -1,7 +1,7 @@
 # teste-tecnico-Mandarin-alexandra86
 
 
-<h1 align="center" font-family="pattaya">Landing Page - Mandarim</h1><br>
+<h1 align="center" font-family="pattaya">Landing Page - Mandarin</h1><br>
 
 <h2 font-family="pattaya">Linguagens utilizadas</h2>
 <div style="display: inline_block"><br>
@@ -11,9 +11,9 @@
 
 <h2 font-family="pattaya">Descrição</h2><br>
 <p font-family="robotto" font-size="16px" line-height="34px" align="justify">
-O projeto se refere a uma aplicação em Html 5 e Css 3, onde foi feita a Landing Page, com o designer fornecido pelo cliente. 
+O projeto se refere ao teste técnico, proposto pela empresa Madarin, onde se trata de uma Landing Page, contendo as liguagens: Html 5 e Css 3, com o designer fornecido pelo cliente. 
 </p><br>
 
 
 <h2 font-family="pattaya">Link da página</h2><br>
-<a href="" font-family="robotto" font-size="16px">Mandarim - Landing Page</a>
+<a href="" font-family="robotto" font-size="16px">Mandarin - Landing Page</a>
