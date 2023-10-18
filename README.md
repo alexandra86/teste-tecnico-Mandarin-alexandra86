@@ -8,7 +8,7 @@
 
 <h2 font-family="pattaya">Descrição</h2><br>
 <p font-family="robotto" font-size="16px" line-height="34px" align="justify">
-O projeto se refere ao teste técnico, proposto pela empresa Madarin, onde se trata de uma Landing Page, contendo as liguagens: Html 5 e Css 3, com o designer fornecido pelo cliente. 
+O projeto se refere ao teste técnico, proposto pela empresa Madarin, onde se trata de uma Landing Page responsiva, contendo as liguagens: Html 5 e Css 3, com o designer fornecido pelo cliente. 
 </p><br>
 
 
