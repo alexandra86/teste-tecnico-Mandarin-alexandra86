@@ -1,4 +1,4 @@
-<h1 align="center" font-family="pattaya">Landing Page - Mandarin</h1><br>
+<h1 align="center" font-family="pattaya">Landing Page - Manda Trends</h1><br>
 
 <h2 font-family="pattaya">Linguagens utilizadas</h2>
 <div style="display: inline_block"><br>
