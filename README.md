@@ -13,4 +13,4 @@ O projeto se refere ao teste técnico, proposto pela empresa Madarin, onde se tr
 
 
 <h2 font-family="pattaya">Link da página</h2><br>
-<a href="https://alexandra86.github.io/teste-tecnico-Mandarin-alexandra86/" font-family="robotto" font-size="16px">Mandarin - Landing Page</a>
+<a href="https://alexandra86.github.io/teste-tecnico-Mandarin-alexandra86/" font-family="robotto" font-size="16px">Manda Trends</a>
